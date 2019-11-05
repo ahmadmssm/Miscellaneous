@@ -1,4 +1,4 @@
-##Android :
+## Android :
 - Export SHA1 key :
 ```keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android ```
 
@@ -21,10 +21,10 @@ Ref: https://stackoverflow.com/questions/15727912/sha-1-fingerprint-of-keystore-
 - Start adb: `adb start-server`.
 
 
-##iOS :
+## iOS :
 
 
-##Git:
+## Git:
 
 - Push with detach HEAD mode:
 `git push origin HEAD:remote-branch-name`
