@@ -54,10 +54,10 @@ git rebase -i `git merge-base HEAD master`
 
 https://stackoverflow.com/questions/43978823/how-to-squash-commits-in-one-branch
 
-================================================================
-Base64 Encoding/Decoding:
 
-- Convert file to base64 string: 
+## Base64 Encoding/Decoding:
+
+- Convert file to base64 string:
 `cat myfile.txt | base64`
 - Convert base64 string into a file:
 `echo $MYFILE | base64 -D > /any/path/myfile.txt`
