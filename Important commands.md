@@ -23,6 +23,18 @@ Ref: https://stackoverflow.com/questions/15727912/sha-1-fingerprint-of-keystore-
 
 ## iOS :
 
+### Cocoapods:
+- Get information on a pod:
+`pod trunk info [pod]`
+
+- Verify your local account:
+`pod trunk me`
+
+- Deleting the pod:
+`pod trunk delete NAME VERSION`
+
+- Push/Update pod to remote repo:
+`pod trunk push PODSPEC`
 
 ## Git:
 
@@ -53,5 +65,14 @@ Base64 Encoding/Decoding:
 
     gem uninstall fastlane
 gem install fastlane -v 2.110.0
+
+
+## Docker:
+- List all containers:
+`docker ps -a`
+
+- Delete container:
+`docker rm e5d container_name`
+
 
 
