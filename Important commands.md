@@ -1,6 +1,8 @@
 ## Android :
 - Export SHA1 key :
-```keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android ```
+```
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+```
 
 	For Release mode :
 	``keytool -list -v -keystore {keystore_name} -alias {alias_name}``
@@ -19,6 +21,11 @@ Ref: https://stackoverflow.com/questions/15727912/sha-1-fingerprint-of-keystore-
 ``
 - Kill adb: `adb kill-server`.
 - Start adb: `adb start-server`.
+- Export adb (MAC):
+```
+export PATH=~/Library/Android/sdk/tools:$PATH
+export PATH=~/Library/Android/sdk/platform-tools:$PATH
+```
 
 
 ## iOS :
@@ -73,6 +80,7 @@ gem install fastlane -v 2.110.0
 
 - Delete container:
 `docker rm e5d container_name`
+
 
 
 
